@@ -1,0 +1,63 @@
+﻿
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+
+    <title></title>
+    <link rel="stylesheet" href="./Style/Style.css">
+    <script src="./Scripts/Common.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="MenuPosition"></div>
+    <div style="height:70px"></div>
+    <div class="row">
+        <div class="col-7" style="text-align:center"><img src="./imgs/Sausage.svg" style="width:90%;border-radius: 20px;" /></div>
+        <div class="col-5">
+            <p class="Title" style="text-align:center;">Hello!</p>
+            <div class="Article">
+                Welcome to my website.
+                <br />
+                This site was created for educational purpose. <br />
+                <br />
+                <cite>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</cite>
+                <div style="text-align:right;" class="Article">Richard McClintock, 1982, probably</div>
+            </div>
+            <br /><br />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <fieldset>
+                <legend class="SubTitle">Projects</legend>
+                <p>
+                    Some open source projects that I created or contributed to, from which I learnt a lot.
+                    <br />
+                    <br />
+                    <cite>
+                        "Donec sit amet euismod orci. Pellentesque vitae libero non ipsum congue facilisis vitae eget tellus. Etiam consectetur laoreet magna, nec gravida ante malesuada at."
+                    </cite>
+                    <br /><br /><button class="Buttons FloatRight" onclick="Navigate('./Projects.html'); return false;">Take a look</button>
+                </p>
+            </fieldset>
+        </div>
+        <div class="col-6">
+            <fieldset>
+                <legend class="SubTitle">Art</legend>
+                <p>
+                    All other things go here — piano sheets, 3D models, artworks, etc.<br />
+                    <br />
+                    <cite>
+                        "Nam cursus sodales est quis aliquet. Integer placerat, magna nec mollis dignissim, massa elit rutrum augue, sit amet placerat lectus nisi at nulla."
+                    </cite>
+                    <br /><br /><button class="Buttons FloatRight" onclick="Navigate('./Art.html'); return false;">Take a look</button>
+                </p>
+            </fieldset>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <div id="FooterPosition"></div>
+</body>
+<script>
+    SetMenu();
+</script>

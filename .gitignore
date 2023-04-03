@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Sardelka
+/junk
+/_PUBLISH
+/server-certificate.cer
+/RebexTinyWebServer.exe.config
+/RebexTinyWebServer.exe
